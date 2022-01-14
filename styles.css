@@ -1,0 +1,67 @@
+th {
+    background-color: gainsboro;
+    height: 33%;
+    width: 33%;
+    border: 1px solid black;
+}
+table {
+    height: 6em;
+    width: 6em;
+    margin: auto;
+}
+.side {
+    border: 1px solid lightgray;
+    height: 6em;
+    width: 6em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.yellow {
+    background-color: #ff0;
+}
+#yellow {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.blue {
+    background-color: #00f;
+}
+#blue {
+    margin-left: auto;
+    display: inline-block;
+}
+.red {
+    background-color: #f00;
+}
+#red {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.green {
+    background-color: #0f0;
+}
+#green {
+    margin-right: auto;
+    display: inline-block;
+}
+.white {
+    background-color: #dff;
+}
+#white {
+    margin: auto;
+    display: block;
+}
+.orange {
+    background-color: #fb0;
+}
+#orange {
+    margin: auto;
+    display: block;
+}
