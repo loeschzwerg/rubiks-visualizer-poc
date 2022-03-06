@@ -135,7 +135,7 @@ function unfocus_side(sides) {
 function swap_top_row(above, right, below, left, clockwise) {
     let old = [above.slice(0, 3), right.slice(0, 3), below.slice(0, 3), left.slice(0, 3)];
     console.log("top row:", old)
-    if (clockwise) {
+    if (!clockwise) {
         for (let i = 0; i < 3; i++) {
             [above[i], right[i], below[i], left[i]] = [old[1][i], old[2][i], old[3][i], old[0][i]]
         }
