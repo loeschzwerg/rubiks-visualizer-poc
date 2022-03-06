@@ -37,8 +37,7 @@ function rotate(direction, color) {
     console.log("rotate", color, dir_str(direction))
     let copy = { ...cube[color] }
     for (let i = 0; i < 9; i++) {
-        cube[color][i] = copy[direction[i]];
-        render_cube();
+        cube[color][i] = copy[direction[i]]
     }
 }
 
